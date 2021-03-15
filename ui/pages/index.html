@@ -1,0 +1,34 @@
+<html>
+  
+    <script src="./web3.min.js"></script>
+    <script type="text/javascript" src="../../build/contracts/PublicSquareABI.js"></script>
+    <script type="module" src="./main.mjs"></script>
+
+    <body>
+        <b>Register name:</b>
+            <input type="text" id="name-text"></input>
+            <button id="register">Register</button>
+            <br/><br/>
+        <b>Set status:</b>
+            <input type="text" id="status-text"></input>
+            <button id="status">Set Status</button>
+        <br/><br/>
+        <b>Current status:</b>: <div id="current-status"></div>
+        <br/>
+        <br/>
+        <b>Check friends status:</b>
+            <input type="text" id="friend-name"></input>
+            <button id="checkFriendStatus">Check</button>
+        <br/>
+        <div id="friends-current-status"></div>
+        <br/>
+
+        <b>Post message:</b>
+        <input type="text" id="message-text"></input>
+        <button id="postNewMessage">Post new message</button>
+        <br/>
+        <br/>
+        <b>Recent postings:</b>
+        <div id="post-box"></div>
+    </body>
+</html>
